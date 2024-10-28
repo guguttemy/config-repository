@@ -8,6 +8,8 @@ server:
 spring:
   application:
     name: reservation-service
+  lifecycle:
+    timeout-per-shutdown-phase: 15s
   r2dbc:
     username: root
     password: 1234
