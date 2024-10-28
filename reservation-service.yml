@@ -7,7 +7,7 @@ server:
 
 spring:
   application:
-    name: reservations-service
+    name: reservation-service
   lifecycle:
     timeout-per-shutdown-phase: 15s
   r2dbc:
